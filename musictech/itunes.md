@@ -32,11 +32,10 @@ The problem seems to be the way iTunes writes Unicode characters which are inval
 
 ---
 
-
-- [Hacking iTunes][https://www.xml.com/pub/a/2004/11/03/itunes.html]
-- [XML Document Type Declaration][http://www.apple.com/DTDs/PropertyList-1.0.dtd]
-- [iTunes Music Library page on fileformats.archiveteam.org][http://fileformats.archiveteam.org/wiki/ITunes_Music_Library]
-- [Tools for iTunes Libraries][https://github.com/josephw/titl]
-- [picardplugins wiki][https://code.google.com/archive/p/picardplugins/wikis/LibraryFile.wiki]
-- [Play higher rated songs more often][https://www.jwz.org/blog/2013/12/implementing-play-higher-rated-songs-more-often-in-itunes-11/]
-- [Notes on the iTunes xml format][http://search.cpan.org/~dinomite/Mac-iTunes-Library-0.9/lib/Mac/iTunes/Library/XML.pm#NOTES_ON_iTUNES_XML_FORMAT]
+- [Hacking iTunes](https://www.xml.com/pub/a/2004/11/03/itunes.html)
+- [XML Document Type Declaration](http://www.apple.com/DTDs/PropertyList-1.0.dtd)
+- [iTunes Music Library page on fileformats.archiveteam.org](http://fileformats.archiveteam.org/wiki/ITunes_Music_Library)
+- [Tools for iTunes Libraries](https://github.com/josephw/titl)
+- [picardplugins wiki](https://code.google.com/archive/p/picardplugins/wikis/LibraryFile.wiki)
+- [Play higher rated songs more often](https://www.jwz.org/blog/2013/12/implementing-play-higher-rated-songs-more-often-in-itunes-11/)
+- [Notes on the iTunes xml format](http://search.cpan.org/~dinomite/Mac-iTunes-Library-0.9/lib/Mac/iTunes/Library/XML.pm#NOTES_ON_iTUNES_XML_FORMAT)
