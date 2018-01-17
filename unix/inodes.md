@@ -1,10 +1,10 @@
 # inodes
 
-- list number of files
+##### list number of files
 
 `for i in /*; do echo $i; sudo find $i |wc -l; done`
 
-- example output:
+example output:
 
 ```
 /bin
@@ -17,14 +17,16 @@
 10583
 ```
 
-- when one folder seems to take a lot longer, dig deeper into that one:
+##### when one folder seems to take a lot longer, dig deeper into that one:
 
 `for i in /var/*; do sudo echo $i; sudo find $i |wc -l; done`
 
 if the directory is protected, you can do ` sudo sh -c 'for i in...' ` 
 
 
-- ncdu
+##### ncdu
+
+ncdu's a curses-based visual version of `du`.
 
 
 
