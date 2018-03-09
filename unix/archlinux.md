@@ -1,11 +1,23 @@
 # archlinux
 
+cheatsheet to create a usable archlinux system from a live image.
+
 ## partition
+
+assuming the following scheme:
+
+sda1: bootable partition 
+
+sda2: swap (2x size of available ram) 
+
+sda3: logical partition for /home 
+
+
 
 - `fdisk -l` - list devices and partition tables
 - `cfdisk` - graphical partition editor (`curses` `fdisk`) 
-
 - `mkfs.ext4 /dev/sda1` - use `mke2fs` to create an ext4 filesystem on `/dev/sda1`
+- `mkfs.ext4 /dev/sda3` - use `mke2fs` to create an ext4 filesystem on `/dev/sda1`
 - `mkswap /dev/sda2` - set up a Linux swap area on `/dev/sda2`
 - `swapon /dev/sda2` - activate the swap that's on  `/dev/sda2`
 
