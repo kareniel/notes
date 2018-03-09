@@ -10,7 +10,7 @@ sda1: bootable partition
 
 sda2: swap (2x size of available ram) 
 
-sda3: logical partition for /home 
+sda3: logical partition for /mnt/home 
 
 
 
