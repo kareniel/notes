@@ -25,7 +25,7 @@
 
 - `nano /etc/locale.conf` - add language to the system `LANG=fr_CA.UTF-8`
 
-- `ln /usr/share/zoneinfo/Canada/Eastern /etc/localtime` - synchronize the zone information
+- `ln -sf /usr/share/zoneinfo/Canada/Eastern /etc/localtime` - synchronize the zone information
 - `hwclock --systohc --utc` - set the time standard
 
 - `passwd` - set root user password
