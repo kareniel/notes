@@ -58,3 +58,22 @@ sda3: logical partition for /mnt/home
 
 - `exit` - exit chroot
 - `reboot`
+
+## first packages
+
+
+- `xorg-server` - x server
+- `xterm` - standard terminal emulator for the X Window System
+- `xorg-xinit` - provides both xinit, startx, and a default xinitrc configuration file.
+
+- `git`
+- `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash` - nvm
+
+- [auto login](https://wiki.archlinux.org/index.php/Getty#Automatic_login_to_virtual_console)
+
+```bash
+if [ "$(tty)" = "/dev/tty1" ]; then
+  startx && exit
+fi
+```
+
