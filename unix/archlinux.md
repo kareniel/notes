@@ -77,3 +77,25 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 fi
 ```
 
+## archiso
+
+
+### setup
+
+- `pacman -S archiso` - install archiso
+- `mkdir archon`
+- `cp -r /usr/share/archiso/configs/releng/* archon` - use the `releng` profile to create a fully customized live version of Arch Linux, pre-installed with all your favorite programs and configurations
+- `cd archon`
+- `mkdir -p ./airootfs/etc/skel` - When `/root/customize_airootfs.sh` is executed and a new user is created, the files from the `/etc/skel` directory will automatically be copied over to the new home folder, permissions set right.
+
+### customize
+
+- `pacman -S xorg-xinit`
+- `cp /etc/X11/xinit/xinitrc ~/.xinitrc`
+- `ln -s /usr/lib/systemd/system/lxdm.service ~/archlive/airootfs/etc/systemd/system/display-manager.service` -  enable your display manager's systemd service
+
+- `./packages.both`, `./packages.i686`, `./packages.x86_64` - where you list, line by line, the packages you want to have installed
+- `./airootfs` - "archiso root filesystem" 
+  -  any files you place within this directory will be copied over on boot-up.
+  - `./airootfs/root/customize_airootfs.sh` - generally, every administrative task that you would normally do after a fresh install **except for package installation** can be scripted here
+- **If you want to use a window manager in the Live CD then you must add the necessary and correct video drivers, or the WM may freeze on loading.**
