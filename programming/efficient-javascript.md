@@ -1,4 +1,4 @@
-# writing efficient javascript
+# tips on writinging efficient javascript
 
 - every parameter should have one and only one type, and return type should always be the same.
 - never use the same var to hold differently typed values
