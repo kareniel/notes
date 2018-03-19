@@ -62,6 +62,9 @@ wip
 
 
 
+
 ### see also
 
 - http://www.godpatterns.com/2006/04/adventure-game-design-patterns.html
+
+- ancient puzzles
