@@ -1,3 +1,5 @@
+# Fatherhood
+
 Fatherhood should be praised and encouraged as a source of pride and meaning for fathers, not just as being in the role of ‘bread winner.’
 
 Marriage has been the main social institution to tie fathers to their children and the steady rise in divorce rates in the last half of the 20th century has partially lead to our state of rising lone child families.
@@ -10,8 +12,6 @@ Female lone parent families made up 13 percent of all census families while male
 
 60 percent of accused rapists came from fatherless homes and those raised in fatherless homes are 11 times more likely to engage in violent behavior and 20 times more likely to be incarcerated at some point.
 
-
-
 Father-deprived children are
 
 - 72% of all teenage murderers.
@@ -21,6 +21,8 @@ Father-deprived children are
 - 3 of 4 teen suicides.
 - 80% of the adolescents in psychiatric hospitals.
 - 90% of runaways
+
+---
 
 Sources: National Fatherhood Initiative (U.S.A.), US Bureau of Census (U.S.A.), FBI (U.S.A.)
 
